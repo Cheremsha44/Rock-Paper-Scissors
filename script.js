@@ -13,7 +13,6 @@ function getComputerChoice(){
 };
 
 function getHumanChoice(){
-    let result = prompt()
     result = result.toLowerCase()
     if (result === "scissors"){
         result = 1
